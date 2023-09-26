@@ -8,7 +8,7 @@ type BirdProps = {
 
 const Bird = ({ y, rotate }: BirdProps) => {
 	return (
-		<div className={`absolute top-${y.toString()} left-60 w-20 h-14`}>
+		<div className={`absolute top-${y.toString()} left-32 w-12 h-8`}>
 			<Image alt="" src={bird} fill />
 		</div>
 	);
