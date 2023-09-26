@@ -1,9 +1,9 @@
-import Bird from "./components/Bird";
+import Game from "./components/Game";
 
 export default function Home() {
 	return (
 		<div>
-			<Bird rotate={0} y={60}></Bird>
+			<Game />
 		</div>
 	);
 }
