@@ -2,6 +2,7 @@ import Bird from "./Bird";
 import Foreground from "./Foreground";
 import Image from "next/image";
 import bg from "/public/images/bg.png";
+import Pipe from "./Pipe";
 
 const Game = () => {
 	return (
@@ -9,6 +10,7 @@ const Game = () => {
 			<Image alt="" src={bg} fill />
 			<Bird rotate={0} y={60} />
 			<Foreground />
+			<Pipe />
 		</div>
 	);
 };
